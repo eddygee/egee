@@ -1,0 +1,217 @@
+#stepsWrap{
+    overflow:hidden;
+}
+#steps{
+    overflow:hidden;
+	padding-left:23px;
+}
+.step{
+    float:left;
+    width:600px;
+}
+#stepsNav{
+    height:45px;
+	font-family: 'WebSymbolsRegular', cursive;
+	padding-left:63px;
+}
+#stepsNav ul{
+    list-style:none;
+	float:left;
+}
+#stepsNav ul li{
+	float:left;
+    position:relative;
+}
+#stepsNav ul li:last-child{
+    border-right:none;
+}
+#stepsNav ul li a p{
+    color:#777;
+}
+#stepsNav ul li a{
+    display:block;
+    height:45px;
+    outline:none;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:45px;
+    padding:0px 20px;
+}
+#stepsNav ul li a:hover,
+#stepsNav ul li.selected a{
+    margin-top:-5px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+li.checked a p{
+	color:#2F871F !important;
+}
+li.error a p{
+	color:#D31B28 !important;
+}
+#steps form fieldset{
+    border:none;
+}
+#steps form legend{
+    text-align:left;
+    color:#fff;
+    font-size:24px;
+    float:left;
+	padding-bottom:15px;
+}
+#steps form p{
+    float:left;
+    clear:both;
+    padding:10px;
+}
+#steps form p label{
+    float:left;
+    margin-right:15px;
+    line-height:26px;
+    color:#666;
+}
+#steps form input:not([type=radio]),
+#steps form textarea,
+#steps form select{
+    background: #ffffff;
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    float:left;
+}
+#steps form input:focus{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background-color:#FFFEEF;
+}
+#steps form p.submit{
+    background:none;
+    border:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+#steps form button {
+	border:none;
+	outline:none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+    cursor:pointer;
+    margin: 5px 0 0 130px;
+    clear:both;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #777;
+    font-weight:bold;
+    font-family:"Century Gothic", Helvetica, sans-serif;
+    font-size:22px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background:#4797ED;
+}
+#steps form button:hover {
+    background:#2F871F ;
+    /*color:#666;
+    text-shadow:1px 1px 1px #fff;*/
+}
+#four span{
+	color:#fff;
+	font-size:40px;
+	line-height:45px;
+	float:left;
+}
+/* CONTACT FORM */
+
+input[type="text"],
+input[type="email"] { width: 100%; }
+textarea { height: 55px; width:100%; }
+label { color: #4e4e4e; }
+input, textarea {
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 5px solid rgba(122, 192, 0, 0.15);
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4b4b4b;
+	font-size: 24px;
+	padding: 10px;
+	width:100%;
+	
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	margin-bottom: 15px;
+}
+input:hover, textarea:hover { border: 5px solid #26292A; background-color: rgba(255, 255, 255, 1); }
+
+input[type="submit"] { 
+	position:relative;
+		width:225px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 24px;
+	background-color: #005B9A;
+	margin:12px auto;
+	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+	
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
+input[type="submit"]:hover { 
+	color: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	background-color: #7ac000;
+}
+input[type="submit"]:active { position: relative; top: 1px; }
+#captcha{
+	clear:left;
+	float:left;
+	width:115px;
+	height:60px;
+}
+	#captcha:after{
+		content:" = ";
+		color:#fff;
+		font-size:28px;
+	}
+#captcha_code{
+	width:45px;
+	float:left;
+	margin:5px;
+}
+#refresh p{
+	font-family: 'WebSymbolsRegular', cursive;
+	color:#318841;
+	line-height:0px;
+	margin-left:-4px;
+}
+#registerButton{
+	float:left;
+	display:none;	
+}
+
+span.explain { display:block; font-size:10px; color:#999999; }
+.statusMessage {
+	position: absolute;
+	float:right;
+	width:370px;
+	padding: 15px 0;
+	color:#fff;
+	display:none;
+}
+.statusMessage h2{
+	font-size:28px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}

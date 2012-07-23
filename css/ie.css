@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:12400px;
+}
+#speed{display:none;}
+#about{
+	width:4100px;
+}
+	#tower{
+		left:2107px;	
+	}
+	#sign{
+		left:2643px;	
+	}
+#about article:first-child{
+	margin-left:1520px;	
+}
+#stores{
+	left:2100px;
+	width:2100px;
+}
+#folio{
+	width:4000px;
+	padding-right:350px;
+}
+#contact{
+	width:1150px;
+}
+	#formWrap{
+		margin-left:900px;
+	}
+		#mapWrap{
+			margin-left:-400px;
+		}
+
+input[type="text"],
+input[type="email"],
+textarea { width: 270px; }
+		#socialLeafs{
+			margin-left:0px;
+		}
+#extra{
+	display:none;	
+}
